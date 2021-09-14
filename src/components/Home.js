@@ -5,7 +5,7 @@ function Home () {
     return(
         <div className ="home" id='Home'>
             <h1 className="title">Hello, I'm Kyle Williamson.</h1>
-                
+                <h3>Front-End Developer</h3>
 
                 <div className="icon-container">
                     <a href="https://github.com/kylewilliamson123" target="blank"> <i class="fab fa-github-alt"></i></a>

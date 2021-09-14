@@ -1,0 +1,236 @@
+.projects{
+    height: 100vh;
+    background-color: rgb(22, 19, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .projects h1{
+      margin-bottom: 30px;
+      color: white;
+      font-size: 80px;
+      
+      
+  }
+
+.project1 a{
+    display: flex;
+    visibility: hidden;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+     
+  }
+  .project-container{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:  0 auto;
+    height: 45vh;
+    width: 70vw;
+    flex-wrap: wrap;
+    /* background-color: rgb(38, 33, 41); */
+    border-radius: 50px;
+    
+   
+  }
+  .project1{
+    display: flex;
+    height: 30rem;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-size: cover;
+    background-position-x: center;
+    margin-bottom: 0rem;
+    box-shadow: 0 8px 20px 0px black;
+    padding: 5px;
+    
+    
+  }
+  .project2{
+    display: flex;
+    height: 30rem;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-size: cover;
+    margin-bottom: 0rem;
+    box-shadow: 0 8px 20px 0px black;
+    padding: 5px;
+  }
+  .project3{
+    display: flex;
+    height: 30rem;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-position-x: center;
+    background-position-y: center;
+    margin-bottom: 0rem;
+    box-shadow: 0 8px 20px 0px black;
+    padding: 5px;
+  }
+  .project4{
+    display: flex;
+    height: 30rem;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    margin-bottom: 0rem;
+    box-shadow: 0 8px 20px 0px black;
+    padding: 5px;
+  }
+  
+  .project1:hover{
+    height: 33rem;
+    width: 24rem;
+    transition: .5s;
+    opacity: .6;
+  }
+
+  .project2:hover{
+    height: 33rem;
+    width: 24rem;
+    transition: .5s;
+    opacity: .6;
+    }
+
+  .project3:hover{
+    height: 33rem;
+    width: 24rem;
+    transition: .5s;
+    opacity: .6;
+    }
+
+  .project4:hover{
+    height: 33rem;
+    width: 24rem;
+    transition: .5s;
+    opacity: .6;
+   }
+
+   .project1 .fab{
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 20rem;
+    
+   }
+   button{
+    font-size: 26px;
+    padding: 10px;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    background: none;
+    margin-top: 20rem;
+   }
+   button:hover{
+       background: black; 
+       color: white;
+       animation: .5s;
+   }
+
+   .project1:hover a{
+  visibility: visible;
+
+   }
+   .project1 .fab:hover{
+    background-color: black;
+    color: white;
+  }
+
+  .project2 a{
+    display: flex;
+    visibility: hidden;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+     
+  }
+
+.project2:hover a{
+    visibility: visible;
+  
+ }
+.project2 .fab:hover{
+    background-color: black;
+    color: white;
+}
+.project2 .fab{
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 20rem;
+        
+}
+
+
+.project3 a{
+    display: flex;
+    visibility: hidden;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+     
+  }
+
+.project3:hover a{
+    visibility: visible;
+  
+ }
+.project3 .fab:hover{
+    background-color: black;
+    color: white;
+}
+.project3 .fab{
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 20rem;
+        
+}
+
+
+.project4 a{
+    display: flex;
+    visibility: hidden;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+     
+  }
+
+.project4:hover a{
+    visibility: visible;
+  
+ }
+.project4 .fab:hover{
+    background-color: black;
+    color: white;
+}
+.project4 .fab{
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 20rem;
+        
+}

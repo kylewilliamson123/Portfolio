@@ -22,15 +22,8 @@ body{
  
   
 }
-.projects{
-  height: 150vh;
-  
-  
-}
-.contact{
-  height: 100vh;
-  background-color: lightblue;
-}
+
+
 
 .icon-container{
   margin: 2rem;
@@ -42,18 +35,17 @@ body{
   
   
 }
-.fab {
+.icon-container .fab {
   font-size: 30px;
   margin: 2rem;
   border-radius: 50%;
   border: 1px solid white;
   padding: 15px;
   
-  
- 
-  
 }
-.far {
+
+
+.icon-container .far {
   font-size: 30px;
   margin: 2rem;
   border-radius: 50%;
@@ -98,78 +90,8 @@ a:hover {
   color: black;
   transition: 0.5s;
 }
-a{
+
+.icon-container a{
   color: white;
 }
 
-.project-container{ 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin:  0 auto;
-  height: 80vh;
-  width: 80vw;
-  flex-wrap: wrap;
-  margin-top:10vh;
-  
-  
- 
-}
-.project1{
-  height: 35rem;
-  width: 30rem;
-  border: 2px solid black;
-  border-radius: 15px;
-  background-size: cover;
-  margin-bottom: 5rem;
-  box-shadow: 0 8px 20px 0px black;
-  
-}
-.project2{
-  height: 35rem;
-  width: 30rem;
-  border: 2px solid black;
-  border-radius: 15px;
-  background-size: cover;
-  margin-bottom: 5rem;
-  box-shadow: 0 8px 20px 0px black;
-}
-.project3{
-  height: 35rem;
-  width: 30rem;
-  border: 2px solid black;
-  border-radius: 15px;
-  background-size: cover;
-  margin-bottom: 5rem;
-  box-shadow: 0 8px 20px 0px black;
-}
-.project4{
-  height: 35rem;
-  width: 30rem;
-  border: 2px solid black;
-  border-radius: 15px;
-  background-size: cover;
-  margin-bottom: 5rem;
-  box-shadow: 0 8px 20px 0px black;
-}
-
-.project1:hover{
-  height: 37rem;
-  width: 32rem;
-transition: .5s;
-}
-.project2:hover{
-  height: 37rem;
-  width: 32rem;
-  transition: .5s;
-  }
-.project3:hover{
-  height: 37rem;
-  width: 32rem;
-  transition: .5s;
-    }
-.project4:hover{
-  height: 37rem;
-  width: 32rem;
-  transition: .5s;
-      }
