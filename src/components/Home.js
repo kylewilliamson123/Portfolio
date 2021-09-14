@@ -8,9 +8,9 @@ function Home () {
                 
 
                 <div className="icon-container">
-                    <i class="fab fa-github-alt"></i>
-                    <i className="fab fa-linkedin-in "></i>
-                    <i className="far fa-file "></i>
+                    <a href="https://github.com/kylewilliamson123" target="blank"> <i class="fab fa-github-alt"></i></a>
+                    <a href="https://www.linkedin.com/in/kyle-williamson-7473411a8/" target ="blank"> <i className="fab fa-linkedin-in "></i> </a>
+                    <a href = "Resume.pdf" download> <i className="far fa-file "></i> </a>
                 </div>
             
         </div>
@@ -18,4 +18,3 @@ function Home () {
 }
 export default Home;
 
-{/* https://github.com/kylewilliamson123 */}
