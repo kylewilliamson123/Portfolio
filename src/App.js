@@ -6,6 +6,8 @@ import Contact from './components/Contact';
 import Nav from './components/Nav';
 import './cssFiles/Project.css';
 import './cssFiles/contact.css';
+import Aboutme from './components/Aboutme';
+import './cssFiles/Aboutme.css';
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
     <Nav />
     <Home />
     <Projects />
+    <Aboutme />
     <Contact />
     </div>
   );
